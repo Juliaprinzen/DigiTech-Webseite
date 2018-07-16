@@ -1,3 +1,29 @@
-## lalalala
+# Bilder 
+***
+## RGB Bilder und ihre Auflösung 
+Ein RGB-Farbraum ist ein additiver Farbraum, der Farbwahrnehmungen durch das additive Mischen 
+der drei Grundfarben (Rot, Grün und Blau) nachbildet. Alle Mischfarben entstehen also aus den Mischungen dieser Grundpalette. 
+Dieses Prinzip dient als Grundlage zur Darstellung von Farbbildern mittels Bildwiedergabegeräten wie Handydisplay, Computerbildschirm oder Tablet und wird in seiner Qualität zusätzlich durch die dpi (dots per inch) der Auflösung bestimmt.
+Die Anzahl dieser hat über die Jahre rasant zugenommen, wie man im Verleich alter Bildschirmansichten im Vergleich mit hochauflösenden Screens der letzten Zeit sehen kann. 
+(Bild Windows alt)                      (Bild apple neu)
+Bildunterschrift: 1993, Windows NT 3.1   Bildunterschrift: Apple Startbildschirm 2016
 
-**julia ist ganz ok**
+### Redundanz- und Irrelevanzreduktion 
+
+**Redundanz**
+
+
+ Wenn das Signal mit mehr Bits als nötig beschriebe wird, ist es sinnvoll dies zu ändern.
+ So kann das Signal effizienter beschrieben werden und das Bild sieht am Ende nicht wesentlich anders aus, als das   Originalmotiv.
+Dies greift vor allem bei kontrastarmen Bereichen einer Grafik, die so weniger Informationen braucht
+
+**Irrelevanz**
+
+
+Originalsignal enthält Information, die das menschliche Auge nicht wahrnehmen kann.
+Schon die Darstellung von Farbe als RGB-Information ist eine Abstraktion, da die
+genaue Farbinformation in Form einer Wellenlänge oder eines eigenen individuellen Tons weggelassen wird.
+Kontraste zwischen Farben werden darüber hinaus geringer ersichtlich, als das bei Differenzen der Helligkeitswerte der Fall ist. Hier fällt dies mehr ins Gewicht.
+Dieses selektive Weglassen der am wenigsten wichtigen Informationen nennt man auch *„lossy compression“*
+
+
