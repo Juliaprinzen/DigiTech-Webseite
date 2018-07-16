@@ -40,7 +40,7 @@ Man teilt das Bild in je 8 mal 8 Pixel große Blöcke ein, die unabhängig vonei
 
 *Interpolation*
 
-(wörtliche Übersetzung: „Zwischenrechnen“) bezeichnet in der digitalen Fotografie ein Verfahren zur Erzeugung von Bildinhalten zwischen verschiedenen Pixeln eines Bildes (Dichteinterpolation)
+Wörtliche Übersetzung: „Zwischenrechnen“, bezeichnet in der digitalen Fotografie ein Verfahren zur Erzeugung von Bildinhalten zwischen verschiedenen Pixeln eines Bildes (Dichteinterpolation)
 und innerhalb einzelner Pixel (Farbinterpolation).
 Die Interpolation ist ein notwendiger Bestandteil des Signalverarbeitungsweges digitaler Bilder, da alle Änderungen an der Pixelmenge und der Farbe nur hiermit realisiert werden können. Im gesamten Verarbeitungsweg zwischen Bilderzeugung und -darstellung wird mehrfach interpoliert – dabei entsteht immer ein Schärfeverlust.
 
