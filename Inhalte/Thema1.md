@@ -8,7 +8,7 @@ Die Anzahl dieser hat über die Jahre rasant zugenommen, wie man im Verleich alt
 (Bild Windows alt)                      (Bild apple neu)
 Bildunterschrift: 1993, Windows NT 3.1   Bildunterschrift: Apple Startbildschirm 2016
 
-### Redundanz- und Irrelevanzreduktion 
+### Komprimierung
 
 **Redundanz**
 
@@ -26,12 +26,27 @@ genaue Farbinformation in Form einer Wellenlänge oder eines eigenen individuell
 Kontraste zwischen Farben werden darüber hinaus geringer ersichtlich, als das bei Differenzen der Helligkeitswerte der Fall ist. Hier fällt dies mehr ins Gewicht.
 Dieses selektive Weglassen der am wenigsten wichtigen Informationen nennt man auch *„lossy compression“*
 
-Beispiel gif
+*Beispiel gif*
 
 Erstellt zu jedem Bild eine Farbpalette mit vorherrschenden Tönen (256) auf die Rückbezug genommen wird. Somit wird jeder Pixel mit einem Byte darstellbar und die Bildgröße komprimiert. Ein Hintergrund kann transparent sein.
 Dieses Format ist geeignet um mehrere Bilder in schneller Abfolge zu reihen sodass kurze Videos entstehen.
 
 (bild pbjt) 
+
+
+*Beispiel JPEG*
+
+Man teilt das Bild in je 8 mal 8 Pixel große Blöcke ein, die unabhängig voneinander verarbeitet werden. Mit dem mathematischen Verfahren der Diskreten Cosinus-Transformation (DCT) ermittelt man aus den Helligkeitsschwankungen innerhalb eines Blocks die darin enthaltenen Frequenzen.Das Ergebnis sind 64 Koeffizienten, die zwar etwas ungenauer sind da sie durch ortsspezifische Anpassung entstanden sind, jedoch annähernd dieselbe Information wie die ursprünglichen 64 Pixel enthalten.
+
+*Interpolation*
+
+(wörtliche Übersetzung: „Zwischenrechnen“) bezeichnet in der digitalen Fotografie ein Verfahren zur Erzeugung von Bildinhalten zwischen verschiedenen Pixeln eines Bildes (Dichteinterpolation)
+und innerhalb einzelner Pixel (Farbinterpolation).
+Die Interpolation ist ein notwendiger Bestandteil des Signalverarbeitungsweges digitaler Bilder, da alle Änderungen an der Pixelmenge und der Farbe nur hiermit realisiert werden können. Im gesamten Verarbeitungsweg zwischen Bilderzeugung und -darstellung wird mehrfach interpoliert – dabei entsteht immer ein Schärfeverlust.
+
+
+
+
 
 
 
