@@ -6,18 +6,16 @@
 </head>
 
 <body style="margin:100px;">
-  
-  
-  <h1 id="bilder">Bilder</h1>
+<h1 id="bilder">Bilder</h1>
 
 <hr />
 
-<h2 id="rgbbilderundihreauflsung">RGB Bilder und ihre Auflösung</h2>
+<h2 id="rgbbilderundihreaufloumlsung">RGB Bilder und ihre Aufl&ouml;sung</h2>
 
 <p>Ein RGB-Farbraum ist ein additiver Farbraum, der Farbwahrnehmungen durch das additive Mischen 
-der drei Grundfarben (Rot, Grün und Blau) nachbildet. Alle Mischfarben entstehen also aus den Mischungen dieser Grundpalette. 
-Dieses Prinzip dient als Grundlage zur Darstellung von Farbbildern mittels Bildwiedergabegeräten wie Handydisplay, Computerbildschirm oder Tablet und wird in seiner Qualität zusätzlich durch die dpi (dots per inch) der Auflösung bestimmt.
-Die Anzahl dieser hat über die Jahre rasant zugenommen, wie man im Verleich alter Bildschirmansichten im Vergleich mit hochauflösenden Screens der letzten Zeit sehen kann. 
+der drei Grundfarben (Rot, Gr&uuml;n und Blau) nachbildet. Alle Mischfarben entstehen also aus den Mischungen dieser Grundpalette. 
+Dieses Prinzip dient als Grundlage zur Darstellung von Farbbildern mittels Bildwiedergabeger&auml;ten wie Handydisplay, Computerbildschirm oder Tablet und wird in seiner Qualit&auml;t zus&auml;tzlich durch die dpi (dots per inch) der Aufl&ouml;sung bestimmt.
+Die Anzahl dieser hat &uuml;ber die Jahre rasant zugenommen, wie man im Verleich alter Bildschirmansichten im Vergleich mit hochaufl&ouml;senden Screens der letzten Zeit sehen kann. 
 (Bild Windows alt)                      (Bild apple neu)
 Bildunterschrift: 1993, Windows NT 3.1   Bildunterschrift: Apple Startbildschirm 2016</p>
 
@@ -25,37 +23,34 @@ Bildunterschrift: 1993, Windows NT 3.1   Bildunterschrift: Apple Startbildschirm
 
 <p><strong>Redundanz</strong></p>
 
-<p>Wenn das Signal mit mehr Bits als nötig beschriebe wird, ist es sinnvoll dies zu ändern.
+<p>Wenn das Signal mit mehr Bits als n&ouml;tig beschriebe wird, ist es sinnvoll dies zu &auml;ndern.
  So kann das Signal effizienter beschrieben werden und das Bild sieht am Ende nicht wesentlich anders aus, als das   Originalmotiv.
 Dies greift vor allem bei kontrastarmen Bereichen einer Grafik, die so weniger Informationen braucht</p>
 
 <p><strong>Irrelevanz</strong></p>
 
-<p>Originalsignal enthält Information, die das menschliche Auge nicht wahrnehmen kann.
+<p>Originalsignal enth&auml;lt Information, die das menschliche Auge nicht wahrnehmen kann.
 Schon die Darstellung von Farbe als RGB-Information ist eine Abstraktion, da die
-genaue Farbinformation in Form einer Wellenlänge oder eines eigenen individuellen Tons weggelassen wird.
-Kontraste zwischen Farben werden darüber hinaus geringer ersichtlich, als das bei Differenzen der Helligkeitswerte der Fall ist. Hier fällt dies mehr ins Gewicht.
+genaue Farbinformation in Form einer Wellenl&auml;nge oder eines eigenen individuellen Tons weggelassen wird.
+Kontraste zwischen Farben werden dar&uuml;ber hinaus geringer ersichtlich, als das bei Differenzen der Helligkeitswerte der Fall ist. Hier f&auml;llt dies mehr ins Gewicht.
 Dieses selektive Weglassen der am wenigsten wichtigen Informationen nennt man auch <em>„lossy compression“</em></p>
 
 <p><em>Beispiel gif</em></p>
 
-<p>Erstellt zu jedem Bild eine Farbpalette mit vorherrschenden Tönen (256) auf die Rückbezug genommen wird. Somit wird jeder Pixel mit einem Byte darstellbar und die Bildgröße komprimiert. Ein Hintergrund kann transparent sein.
+<p>Erstellt zu jedem Bild eine Farbpalette mit vorherrschenden T&ouml;nen (256) auf die R&uuml;ckbezug genommen wird. Somit wird jeder Pixel mit einem Byte darstellbar und die Bildgr&ouml;&szlig;e komprimiert. Ein Hintergrund kann transparent sein.
 Dieses Format ist geeignet um mehrere Bilder in schneller Abfolge zu reihen sodass kurze Videos entstehen.</p>
 
 <p>(bild pbjt) </p>
 
 <p><em>Beispiel JPEG</em></p>
 
-<p>Man teilt das Bild in je 8 mal 8 Pixel große Blöcke ein, die unabhängig voneinander verarbeitet werden. Mit dem mathematischen Verfahren der Diskreten Cosinus-Transformation (DCT) ermittelt man aus den Helligkeitsschwankungen innerhalb eines Blocks die darin enthaltenen Frequenzen.Das Ergebnis sind 64 Koeffizienten, die zwar etwas ungenauer sind da sie durch ortsspezifische Anpassung entstanden sind, jedoch annähernd dieselbe Information wie die ursprünglichen 64 Pixel enthalten.</p>
+<p>Man teilt das Bild in je 8 mal 8 Pixel gro&szlig;e Bl&ouml;cke ein, die unabh&auml;ngig voneinander verarbeitet werden. Mit dem mathematischen Verfahren der Diskreten Cosinus-Transformation (DCT) ermittelt man aus den Helligkeitsschwankungen innerhalb eines Blocks die darin enthaltenen Frequenzen.Das Ergebnis sind 64 Koeffizienten, die zwar etwas ungenauer sind da sie durch ortsspezifische Anpassung entstanden sind, jedoch ann&auml;hernd dieselbe Information wie die urspr&uuml;nglichen 64 Pixel enthalten.</p>
 
 <p><em>Interpolation</em></p>
 
-<p>Wörtliche Übersetzung: „Zwischenrechnen“, bezeichnet in der digitalen Fotografie ein Verfahren zur Erzeugung von Bildinhalten zwischen verschiedenen Pixeln eines Bildes (Dichteinterpolation)
+<p>W&ouml;rtliche &Uuml;bersetzung: "Zwischenrechnen", bezeichnet in der digitalen Fotografie ein Verfahren zur Erzeugung von Bildinhalten zwischen verschiedenen Pixeln eines Bildes (Dichteinterpolation)
 und innerhalb einzelner Pixel (Farbinterpolation).
-Die Interpolation ist ein notwendiger Bestandteil des Signalverarbeitungsweges digitaler Bilder, da alle Änderungen an der Pixelmenge und der Farbe nur hiermit realisiert werden können. Im gesamten Verarbeitungsweg zwischen Bilderzeugung und -darstellung wird mehrfach interpoliert – dabei entsteht immer ein Schärfeverlust.</p>
-  
-  
-  
+Die Interpolation ist ein notwendiger Bestandteil des Signalverarbeitungsweges digitaler Bilder, da alle &Auml;nderungen an der Pixelmenge und der Farbe nur hiermit realisiert werden k&ouml;nnen. Im gesamten Verarbeitungsweg zwischen Bilderzeugung und -darstellung wird mehrfach interpoliert – dabei entsteht immer ein Sch&auml;rfeverlust.</p>
   
 </body>
 
