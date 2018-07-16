@@ -39,3 +39,9 @@ hr {
   width: 100%;
   align: center;
 }
+
+li {
+  color: black;
+  text-align: left;
+  font-size: 12px;
+}
