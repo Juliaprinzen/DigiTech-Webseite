@@ -1,0 +1,41 @@
+body {
+  background-color: #116177;
+  margin: 10px;
+}
+
+p {
+  color: black;
+  text-align: left;
+  font-size: 12px;
+}
+
+h1 {
+  color: black;
+  text-align: left;
+  font-size: 40px
+  margin-left: 10px;
+}
+
+h2 {
+  color: black;
+  text-align: left;
+  font-size: 30px
+}
+
+h3 {
+  color: black;
+  text-align: left;
+  font-size: 20px
+}
+
+h4 {
+  color: black;
+  text-align: left;
+  font-size: 14px
+}
+
+hr {
+  size: 1;
+  width: 100%;
+  align: center;
+}
