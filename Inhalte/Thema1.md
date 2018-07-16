@@ -26,4 +26,13 @@ genaue Farbinformation in Form einer Wellenlänge oder eines eigenen individuell
 Kontraste zwischen Farben werden darüber hinaus geringer ersichtlich, als das bei Differenzen der Helligkeitswerte der Fall ist. Hier fällt dies mehr ins Gewicht.
 Dieses selektive Weglassen der am wenigsten wichtigen Informationen nennt man auch *„lossy compression“*
 
+Beispiel gif
+
+Erstellt zu jedem Bild eine Farbpalette mit vorherrschenden Tönen (256) auf die Rückbezug genommen wird. Somit wird jeder Pixel mit einem Byte darstellbar und die Bildgröße komprimiert. Ein Hintergrund kann transparent sein.
+Dieses Format ist geeignet um mehrere Bilder in schneller Abfolge zu reihen sodass kurze Videos entstehen.
+
+(bild pbjt) 
+
+
+
 
